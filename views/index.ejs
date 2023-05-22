@@ -10,8 +10,10 @@
 </head>
 <body>
 
-   <a href="/pessoas/criar">Cadastrar</a>
+ 
 
+<h1 class="h1index" >Informações do Cadastro <3</h1>
+<a class="cadastrar" href="/pessoas/criar">Cadastrar</a>
     <div class="grid">
 
     <% pessoas.forEach((pessoa) => { %>
@@ -24,8 +26,16 @@
     <div>
         <%= pessoa.idade %>
     </div>
+
+    <div>
+        <a class="delete" href="/pessoas/delete?id=<%=pessoa.id%>">Delete</a>
+    </div>
+
+    
+
     <% }) %> 
 </div>   
+
 
 
 </body>
