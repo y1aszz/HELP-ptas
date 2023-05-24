@@ -13,17 +13,21 @@ body{
 
 .grid{
     display: grid;
-    grid-template-columns: auto auto auto;
+    padding: 7px;
+    border: 1px solid rgb(233, 169, 241);
+    border-radius: 20px;
+    grid-template-columns: auto auto auto auto;
     align-items: center;
     margin-top: 2%;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 41%;
+    margin-right: 41%;
 }
 
 .input{
     border: none;
     box-shadow: 2px 2px 10px  rgb(205, 11, 235);
     border-radius:20px ;
+    
 }
 
 .botao{
@@ -45,22 +49,47 @@ body{
 .delete{
     text-decoration: none;
     color: blueviolet;
-    border-width: 2px;
+    margin-left: 20px;
+    width: 10px;
 }
 
-.delete:hover{
-    cursor: grab;
+.imagem{
+    width: 30px;
 }
+
 
 
 .cadastrar{
     margin-left: 1%;
     text-decoration: none;
     color: blueviolet;
-    border:2px
+    border: 2px solid rgb(213, 70, 213);
+    background-color: rgb(217, 85, 226);
+    color: antiquewhite;
+    border-radius: 20px ;
+}
+
+.cadastrar:hover{
+    cursor: grab;
+}
+
+.cadastrar:active{
+    cursor: grabbing;
+}
+
+.cadastrarIndex{
+    margin-left: 40%;
+    text-decoration: none;
+    color: blueviolet;
+    border: 2px solid rgb(213, 70, 213);
+    background-color: rgb(217, 85, 226);
+    color: antiquewhite;
+    border-radius: 5px ;
 }
 
 .h1index{
+    margin-top: 10%;
+    text-align: center;
     color: aliceblue;
 }
 hr{
@@ -74,4 +103,5 @@ hr{
 .formulario{
     color: white;
     margin-left: 40%;
+    margin-top: 10%;
 }
